@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Generative Expressive Robot Behaviors using Large Language Models</title>
+    <title>NebulaSuit: An Upper-Body High-Density Vibrotactile Suit Built With Scalable Hardware Solutions</title>
 
-    <meta name="description" content="Generative Expressive Robot Behaviors using Large Language Models">
+    <meta name="description" content="NebulaSuit: An Upper-Body High-Density Vibrotactile Suit Built With Scalable Hardware Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <base href="/"> -->
@@ -67,11 +67,8 @@
         <div class="row mt-4">
             <h2 class="col-md-12 text-center">
                 <b>
-                    <font size="+6">Generative Expressive Robot Behaviors <br> Using Large Language Models </br></font>
+                    <font size="+6">NebulaSuit: An Upper-Body High-Density Vibrotactile <br>Suit Built With Scalable Hardware Solutions </br></font>
                 </b>
-                <small style="font-size: 20px;">
-                    HRI 2024
-                </small>
             </h2>
         </div>
 
@@ -79,42 +76,24 @@
             <div class="col-md-12 text-center">
                 <ul class="list-inline">
                     <br>
-                    <li><a href="https://karthikmahadevan.ca">Karthik Mahadevan</a></li>
-                    <li><a href="https://www.linkedin.com/in/jonathanchien">Jonathan Chien</a></li>
-                    <li><a href="https://www.linkedin.com/in/noah-brown-40157b124">Noah Brown</a></li>
-                    <li><a href="https://www.linkedin.com/in/zhuo-xu-joe/">Zhuo Xu</a></li>
+                    <li>Bingjian Huang</li>
+                    <li>Hanfeng Cai</li>
+                    <li>Siyi Ren</li>
+                    <li>Yeqi Sang</li>
+                    <li>Qilong Cheng</li>
+                    <li>Renjie Fang</li>
+                    <li>Helen Liang</li>
+                    <li>Paul H Dietz</li>
+                    <li>Danial Wigdor</li>
                     <br>
-                    <li><a href="https://www.linkedin.com/in/carolinaparada/">Carolina Parada</a></li>
-                    <li><a href="https://fxia22.github.io/">Fei Xia</a></li>
-                    <li><a href="//andyzeng.github.io/">Andy Zeng</a></li>
-                    <li><a href="https://www.linkedin.com/in/leilatakayama/">Leila Takayama</a></li>
-                    <li><a href="https://dorsa.fyi/">Dorsa Sadigh</a></li>
                     <br>
-                    <br>
-                    <a href="http://g.co/robotics">
-                        <img src="img/deepmind.png" style="width: 10%;">
-                        Google Deepmind
-                    </a>
                 </ul>
             </div>
         </div>
 
-        <div class="row justify-content-md-center">
-            <div class="col-md-2 text-center">
-                <a href="https://arxiv.org/abs/2401.14673">
-                    <image src="img/paper_small.png" height="60px">
-                        <h4><strong>Paper</strong></h4>
-                </a>
-            </div>
-
-            <div class="col-md-2 text-center">
-                <a href="https://drive.google.com/file/d/1Ny07f0dpc0CJyyag3KTwfpHdv_-CSz_p/view?usp=sharing">
-                    <image src="img/paper_appendices.png" height="60px">
-                        <h4><strong>Appendices</strong></h4>
-                </a>
-            </div>
-        </div>
-
+        <p style="text-align:center;">
+            <image src="img/teaser_dark.jpg" width="80%" height="80%">
+        </p>
         <section class="section">
             <div class="container is-max-desktop">
                 <div class="columns is-centered has-text-centered">
@@ -122,31 +101,10 @@
                         <h2 class="title is-3">Abstract</h2>
                         <div class="content has-text-justified">
                             <p class="text-justify">
-                                People employ expressive behaviors to effectively communicate and coordinate their
-                                actions with
-                                others, such as nodding to acknowledge a person glancing at them or saying "excuse me"
-                                to pass
-                                people in a busy corridor. We would like robots to also demonstrate expressive behaviors
-                                in
-                                human-robot interaction. Prior work proposes rule-based methods that struggle to scale
-                                to new
-                                communication modalities or social situations, while data-driven methods require
-                                specialized
-                                datasets for each social situation the robot is used in. We propose to leverage the rich
-                                social
-                                context available from large language models (LLMs) and their ability to generate motion
-                                based on
-                                instructions or user preferences, to generate expressive robot motion that is adaptable
-                                and
-                                composable, building upon each other. Our approach utilizes few-shot chain-of-thought
-                                prompting to
-                                translate human language instructions into parametrized control code using the robot's
-                                available and
-                                learned skills. Through user studies and simulation experiments, we demonstrate that our
-                                approach
-                                produces behaviors that users found to be competent and easy to understand.
-                                Supplementary material
-                                can be found at https://generative-expressive-motion.github.io/.
+                                Vibrotactile systems are widely used in various applications. 
+However, existing systems remain low in scalability and density. Vibrotactile feedback has not yet revealed its potential in large-scale and high-density applications. 
+In this paper, we introduced NebulaSuit, a high-density upper-body suit featuring 124 vibrotactile actuators. With scalable design solutions such as self-contained vibration units and chain-connection topology, it supports high-bandwidth and low-latency communication, enabling fine-grained control of vibration parameters for each actuator. 
+This page illustrates the high-level structure, vibration unit design, inter-unit communication, backpack, and garment design. 
                             </p>
                         </div>
                     </div>
@@ -154,11 +112,6 @@
             </div>
         </section>
 
-        <p style="text-align:center;">
-            <img src="img/cover.png" width="60%" height="60%">
-        </p>
-
-        <!--    Approach    -->
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -166,34 +119,22 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered has-text-centered">
                     <div class="column is-four-fifths">
-                        <h2 class="title is-3">Approach</h2>
+                        <h2 class="title is-3">High-level Structure</h2>
                         <div class="content has-text-justified">
                             <p class="text-justify">
-                                We aim to tackle the problem of expressive behavior generation that is both adaptive to
-                                user feedback and composable so that more complex behaviors can build on simpler
-                                behaviors. Formally, we define being expressive as the distance between some
-                                expert expressive trajectory that could be generated by an animator (or demonstrated) \(
-                                \tau_{\text{expert}} \) and a robot trajectory \( \tau \). \( \text{dist}(\tau,
-                                \tau_{\text{expert}}) \) can be any desirable distance metric between the two
-                                trajectories, e.g., dynamic time warping (DTW). GenEM aims to minimize this distance \(
-                                d^* = \min \text{dist}(\tau,\tau_{\text{expert}}) \).
-                            </p>
-                            <p class="text-justify">
-                                Our approach uses several LLMs in a modular fashion so that
-                                each LLM agent plays a distinct role. GenEM takes user language instructions \( l_{in}
-                                \in L \) as input and outputs a
-                                robot policy \( \pi_\theta \), which is in the form of a parameterized code.
+                                NebulaSuit incorporated 124 vibration units, a central backpack and a custom-tailored shirt. 
+                                The system employed the chain-connection topology, wherein the central control board in the backpack 
+                                supported up to 12 chain connections. Currently, the 124 units are grouped into eight chains:
+                                 40 small vibration units located on each arm were grouped into four chains, 20 large vibration 
+                                 units located in the front were two chains, and 24 large units located on the back were two chains.
+                                  The detailed chained connection were illustrated below. 
+                                  The inter-unit communication was through a custom-designed UART protocol.
 
-                                Human iterative feedback \( f_i \in L \) can be used to update the policy \( \pi_\theta
-                                \).
-                                The policy parameters get updated one step at a time given the feedback \( f_i \), where
-                                \( i
-                                \in \{1,\dots, K\} \).
-                                The policy can be instantiated from some initial state \( s_0 \in S \) to produce
-                                trajectories \( \tau = \{s_0, a_0, \dots, a_{N-1},s_N\} \) or instantiations of
-                                expressive
-                                robot behavior.
-                            </p>
+The spacing between vibration units mainly referenced spatial acuity results from the <a href="https://dl.acm.org/doi/abs/10.1145/3432189">VibroMap</a> because it provided comprehensive measurements of localization errors on different body parts. Taking the overall prototype weight into account, we finalized the inter-motor distances as 4cm on the arm and 10cm on the body trunk. This spacing did not strictly reach the human resolution, but was good enough to show the potential of high-density systems.
+
+                    <p style="text-align:center;">
+                        <image src="img/overview.png" width="100%" height="100%">
+                    </p>
 
                         </div>
                     </div>
@@ -201,28 +142,50 @@
             </div>
         </section>
 
-        <p style="text-align:center;">
-            <image src="img/approach.png" width="100%" height="100%">
-        </p>
 
         <section class="section">
             <div class="container is-max-desktop">
                 <div class="columns is-centered has-text-centered">
                     <div class="column is-four-fifths">
-                        <h2 class="title is-3">Studies</h2>
+                        <h2 class="title is-3">Vibration Unit Design</h2>
                         <div class="content has-text-justified">
                             <p class="text-justify">
-                                We conducted two user studies to assess whether our approach, GenEM, can be used to
-                                generate expressive behaviors that are perceivable by people. We generated two versions
-                                of behaviors: GenEM, and GenEM with iterative Feedback (or GenEM++). In
-                                both studies, all comparisons were made against behaviors designed by a professional
-                                animator and implemented by a software developer, which we term the oracle animator. In
-                                the first study, our goal was to assess whether behaviors that are generated
-                                using GenEM and GenEM++ would be perceived similarly to the behaviors created using the
-                                oracle animator. In the second study, we attempted to generate behaviors using GenEM and
-                                GenEM++ that were similar to the behaviors created using the oracle animator. Both
-                                studies aim
-                                to demonstrate that our approach is adaptable to human feedback.
+                                <strong style="font-size: 20px;">1. Choice of Vibrotactile Actuators.</strong> Each vibration unit consists of a vibrotactile actuator, a custom designed PCB board,
+                                 and 3D printed enclosures. As mentioned above, small and large vibration units were used 
+                                 respectively for the arm and the body. However, both units shared similar electrical and 
+                                 mechanical designs except different vibrotactile actuators.
+                                <br>
+                                 Two types of vibrotactile actuators were used for the vibration unit design to accommodate the
+                                  tactile perception difference between the arm and the body trunk, i.e., spatial acuity and perceived
+                                   intensity. Prior work <a href="https://dl.acm.org/doi/abs/10.1145/3432189">VibroMap</a> has shown that the arm had better spatial acuity
+                                    than the body. Additionally, the subjective intensity of vibrotactile stimuli on the arm was lower 
+                                    than that of the body.
+                                <br>
+                                A small Linear Resonant Actuator (LRA) was chosen for the arm vibration unit, 
+                                manufactured by <a href="https://www.vybronics.com">Jinlong Machinery and Electronics</a>. (Model# = L959535). 
+                                It was an X-axis square-shaped 9.5 millimeters x 9.5 millimeters
+                                  LRA. Its resonant frequency is 170 Hz. When powered by 0.9 Vrms, it had a maximum current 
+                                  of 145 mArms, and an acceleration of 0.65±0.12 Grms. A large Voice Coil Actuator (VCA) was chosen for
+                                   the body vibration unit, manufactured by <a href="https://puiaudio.com/product/haptics/hd-va3222\cite{PUIAudio}">PUI Audio</a>, (Model# = HD-VA3222). 
+                                   It was 32mmx22mm and had a wide range of frequency response from 80-500 Hz. When driven by 133Hz 
+                                   1.5Vrms signal, it had a maximum acceleration of 2.52 Gp-p.
+                                <br>
+
+                                <strong style="font-size: 20px;">2. Electrical Design.</strong> Each vibration unit had its own driver PCB board to receive UART commands from the
+                                central board and provided fine-grained control over vibration parameters. The driver board included a PIC16F18313
+                                Microcontroller Unit (MCU), a DRV8837 H-bridge motor driver, two 4-pin JST-SH headers, two pogo pins, and some
+                                supportive components. The MCU was used as the central processor to transmit commands and generate
+                                waveforms. The JST headers were used as input and output for the power and signal connections. The pogo pins were
+                                mounted on the bottom side to make direct contact with the actuator pads. When the MCU received a "start" signal, it
+                                sent waveform to the H-bridge to directly modulate the actuator. The MCU had fine-grained control over
+                                intensity, frequency and waveform.
+
+                            </p>
+                            <p style="text-align:center;">
+                                <image src="img/circuit.png" width="100%" height="100%">
+                            </p>
+                            <p style="text-align:center;">
+                                <image src="img/blow_up.png" width="100%" height="100%">
                             </p>
                         </div>
                     </div>
@@ -233,712 +196,158 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <h3 class="title is-3">Study 1: Benchmarking GenEM</h3>
+                    <h3 class="title is-3">Mechanical Design</h3>
                     <div class="content has-text-justified">
                         <p class="text-justify">
-                            To determine whether our approach produces expressive behaviors
-                            that people can perceive, we conducted a within-subjects user study
-                            with thirty participants.
-
-                            We generated ten expressive behaviors ranging in complexity: Nod, shake head (Shake), wake
-                            up (Wake), excuse me (Excuse), recoverable mistake (Recoverable), unrecoverable mistake
-                            (Unrecoverable), acknowledge person walking by (Acknowledge), follow person (Follow),
-                            approach person (Approach) and pay attention to person (Attention). The input included a
-                            one-line instruction (e.g., Respond to a person saying, “Come here. You cannot speak.”).
+                            The functions of the 3D-printed enclosure were to the vibrotactile actuator and PCB board stably and provide garment attaching method.
+                            <br>
+                            The enclosure consisted of four parts: cap, PCB mount, cylindrical enclosure, and bottom ring (Figure above):
+                            <ul>
+                                <li>The cap employed a screw-nut fastening system, adding top-down pressure to stablize the PCB board.</li>
+                                <li>The PCB mount offered protection for the PCB, and aligned the pogo pins directly with the pads of the actuator.
+                                     This improved the robustness of the vibration unit as no soldering was required during the assembly.</li>
+                                <li>The cylindrical enclosure served as a protective housing for all parts.
+                                     It had two holes designated for JST connectors as well as two asymmetrically positioned vents for passive heat dissipation.</li>
+                                <li>The bottom ring was positioned beneath the fabric suit layers to have direct contact with the skin. When attached to the cylindrical enclosure,
+                                     these two parts were secured at the intended cloth position. This avoids any stitching or sewing in the assembly.
+                                
+                                </li>
+                            </ul>
+                            The overall structure of the 3D-printed enclosure for large vibration units is similar to the small one, with cap, rectangular enclosure,
+                             and bottom ring. We did not design a PCB mount for the larger PCB board as it could press fit into the enclosure.
                         </p>
                         <p style="text-align:center; margin-top: 50px;" />
                     </div>
                 </div>
             </div>
         </div>
-
-        <h3>Oracle Animator</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C1/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Start Carousel -->
-        <h3>GenEM</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C2/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <h3>GenEM++</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study1/Study1/C3/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <h3 class="title is-3" style="margin-top: 50px;">Results</h3>
+                    <h3 class="title is-3">Inter-unit Communication</h3>
                     <div class="content has-text-justified">
                         <p class="text-justify">
-                            We found that GenEM++ behaviors were well received and were not perceived as significantly
-                            worse than the baseline oracle animator behaviors (and in some cases were perceived as
-                            better).
+                            Former attempts to build large-scale systems that relied on the star-shaped and tree-shaped topology 
+                            often resulted in pin shortages, redundant wirings, and reduced robustness. To solve these problems, 
+                            we designed a chain-connected topology (Figure below) to minimize wiring complexity
+                             and allow fine-grained control of individual units. We also created a two-byte UART protocol to further 
+                             support high-bandwidth communication. 
+                             <br>
+                             As mentioned in electrical design, each vibration unit had two four-pin JST connectors: TX/RX, 
+                             GND (ground), +5V, and VCC. TX/RX was used to receive and transmit UART data. The GND (ground) 
+                             and +5V lines were shared across all vibration units on a chain, providing the stable power supply
+                              for the PIC16F18313 MCUs. VCC was a separate power supply line for driving the actuator with varying
+                               voltages. Since each vibration unit was only directly connected to the two units before and after itself,
+                                the wiring complexity was significantly lower than star-shaped topology.
+
+                        </p>
+                        <p style="text-align:center;">
+                            <image src="img/topology.png" width="100%" height="100%">
+                        </p>
+                        <p class="text-justify">
+                            The UART protocol transmitted two-byte messages at a baud rate of 115.2k Hz with parity check bits 
+                            (Figure below). The first-byte message contained the address of the board currently
+                             under control, and a single bit that toggled its start or stop. To initiate a command, the central 
+                             control board sent the address byte as the first byte to the specific chain of motors where the board
+                              was present. Upon receiving the data, if a non-zero address was received, the unit motor driver board
+                               knew the command was not for itself so it subtracted "1" from the address and transmitted the message 
+                               to the next unit motor driver board until the address became "0" and the unit motor driver board with
+                                the correct address received the message. If the received address was 0 and the "start/stop" bit was 
+                                "1" (START), it waited to receive a second-byte message. If the received address was 0 and the 
+                                "start/stop" bit was "1" (STOP), it disabled its motor. In this way, although all unit driver boards 
+                                were loaded with the same code, we effectively created a unique address for each of them and were 
+                                able to provide independent control.
+
+                        </p>
+                        <p style="text-align:center;">
+                            <image src="img/uart.png" width="60%" height="60%">
+                        </p>
+                        <p class="text-justify">
+                            When a unit was "addressed", it waited for the second-byte message, which contained details about the mode
+                             of operation for the addressed unit motor driver board, including the frequency, duty cycle, and wave-form
+                              for each unit motor driver board. The system enabled each motor to be independently controlled across 4 
+                              frequencies (i.e., 90 Hz, 140 Hz, 180 Hz, and 240 Hz), 16 duty cycles (i.e., 0000 - 1111 with 16-bit resolution), 
+                              and two wave-forms (i.e., square and sine PWM). 
+                              <br>
+                              The multi-chain topology used within the NebulaSuit did introduce potential transmission latency. 
+                              Since each unit motor driver board needed to receive, process, and potentially resend commands to 
+                              the next unit motor driver board in the chain, latency accumulates within unit motor driver boards
+                               at the ends of chains. Technical evaluation conducted with an oscilloscope indicated that the transmission 
+                               delay between two vibration units averaged 125us. Since the longest chain in Nebula consisted of one power
+                                converter and 20 vibration units, the overall delay from the first unit to the last unit was around 2.6ms,
+                                 which was virtually imperceptible within the scope of human perceptual distinguishment of 
+                                 <a href="https://link.springer.com/content/pdf/10.3758/BF03205793.pdf">temporal difference</a>.
                         </p>
                         <p style="text-align:center; margin-top: 50px;" />
-
-                        <p style="text-align:center; margin-top: 50px;">
-                            <img src="img/study1_results.png" width="100%" height="100%">
+                        <p style="text-align:center;">
+                            <image src="img/transmission.png" width="90%" height="90%">
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--    Study 2     -->
-
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <h3 class="title is-3" style="margin-top: 50px;">Study 2: Mimicking the Oracle Animator</h3>
-                    <div class="content has-text-justified">
-                        <p class="text-justify" style="margin-bottom: 50px;">
-                            We conducted an additional user study with twenty four participants to assess whether using
-                            GenEM to generate behaviors that resembled the oracle animator would be perceived
-                            differently.
-
-                            We generated ten expressive behaviors ranging in complexity, with eight
-                            overlapping behaviors from the first study: nod (Nod), shake
-                            head (Shake), wake up (Wake), excuse me (Excuse), recoverable mistake
-                            (Recoverable), unrecoverable mistake (Unrecoverable), acknowledge person
-                            walking by (Acknowledge Walking), acknowledge person stopping by (Acknowledge
-                            Stop), follow person (Follow), and teaching session (Teach). Behaviors that
-                            were different from the first study were chosen to add further complexity. Unlike in the
-                            first study, the prompts were more varied and sometimes
-                            included additional descriptions such as for the more complex behaviors (see
-                            Appendices for full prompts for each behavior).
-
-                            To create each GenEM++ behavior, an experimenter refined the GenEM behavior through
-                            iterative feedback until it appeared similar to the equivalent oracle animator behavior or
-                            after exceeding the maximum number of feedback rounds
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h3>Oracle Animator</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2C1/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C1/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Start Carousel -->
-        <h3>GenEM</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C2/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <h3>GenEM++</h3>
-        <section class="hero is-light is-small">
-            <div class="hero-body">
-                <div class="container">
-                    <div id="results-carousel" class="carousel results-carousel">
-                        <!-- Carousel items go here -->
-                        <!-- Start Carousel -->
-                        <div class="item-1">
-                            <!-- Slide Content -->
-                            <video poster="" id="1" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/1.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Nod</p>
-                            </div>
-                        </div>
-                        <div class="item-2">
-                            <video poster="" id="2" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/2.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Shake</p>
-                            </div>
-                        </div>
-                        <div class="item-3">
-                            <video poster="" id="3" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/3.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-4">
-                            <video poster="" id="4" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/4.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Excuse</p>
-                            </div>
-                        </div>
-                        <div class="item-5">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/5.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Recoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-6">
-                            <video poster="" id="5" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/6.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Unrecoverable</p>
-                            </div>
-                        </div>
-                        <div class="item-7">
-                            <video poster="" id="7" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/7.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Acknowledge</p>
-                            </div>
-                        </div>
-                        <div class="item-8">
-                            <video poster="" id="8" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/8.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Follow</p>
-                            </div>
-                        </div>
-                        <div class="item-9">
-                            <video poster="" id="9" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/9.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Approach</p>
-                            </div>
-                        </div>
-                        <div class="item-10">
-                            <video poster="" id="10" autoplay muted loop height="100%" type="video/mp4">
-                                <source src="videos/Study2/Study2/C3/10.mp4" type="video/mp4">
-                            </video>
-                            <div class="video-overlay">
-                                <p>Attention</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="container is-max-desktop">
-            <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                    <h3 class="title is-3" style="margin-top: 50px;">Results</h3>
+                    <h3 class="title is-3">Backpack Design</h3>
                     <div class="content has-text-justified">
                         <p class="text-justify">
-                            Similarly, we found that GenEM++ behaviors were well received and that the oracle animator
-                            behaviors were not perceived as significantly better.
-                        </p>
+                            A compact 3D-printed backpack was affixed to the upper back of the garment. It functioned as the central control unit, 
+                            converting external Bluetooth signals to serial commands for each vibration unit and helping regulate the VCC 
+                            power supply voltage for each chain. This 3D printed backpack contains a central control PCB board and eight 
+                            power converters (twelve for maximum).
+                            <br>
+                            The central control board drew power from two 3.7V 10500mAh LiPo batteries connected in series. 
+                            It stabilized the voltage at 5V through an low-dropout regulator (LDO) to power all MCUs in the system.
+                             It also direct the 7.4V power supply to power converter board for subsequent voltage regulation. The board had 
+                             12 chain connection ports, each beginning with one power converter that controlled the input voltage for actuators, 
+                             followed by subsequent vibration units. An <a href="https://www.adafruit.com/product/5400">Adafruit Feather ESP32 V2 board</a> was attached to 
+                             the female sockets on the board, responsible for receiving external Bluetooth commands, converting them to serial 
+                             commands, and forwarding to the corresponding chains.
+                             <br>
+                            The power converter board was designed to regulate the VCC input voltage on each chain, offering
+                            another layer of intensity control for vibration units. This board was a customized DC-DC buck 
+                            converter that stepped down voltage from 7.4V input to its designated output level, using transistors
+                             and inductors. Noted that the power converter board used the same MCU (PIC16F18313) for generating 
+                             PWM signals. Therefore, it could receive and transmit serial commands like the vibration units. 
+                             The central control board could treat the power converter as a "vibration unit" when sending commands.
+                             The only difference was that in the two-byte protocol, the second byte was exclusively used for voltage control.
+                             <br>
+                            Combining the central control board, the power converters, and vibration units, we established a chain-connection 
+                            topology that provided low-latency and fine-grained control over vibration parameters for each vibration unit.
+                             Meanwhile, this multi-chain connection topology also significantly simplified wiring and reduced the number of 
+                             control pins required on the ESP32 MCU.
                         <p style="text-align:center; margin-top: 50px;" />
-
-                        <p style="text-align:center; margin-top: 50px;">
-                            <img src="img/study2_results.png" width="100%" height="100%">
+                        <p style="text-align:center;">
+                            <image src="img/backpack.png" width="90%" height="90%">
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--    Ablations    -->
-
-        <section class="section">
-            <div class="container is-max-desktop">
-                <div class="columns is-centered has-text-centered">
-                    <div class="column is-four-fifths">
-                        <h2 class="title is-3">Cross-Embodiment Behavior Generation</h2>
-                        <div class="content has-text-justified">
-                            <p class="text-justify">
-                                We sampled the same prompts in the first user study five times per behavior using API
-                                for
-                                a simulated Spot robot. Overall, the success rates hint at the generality of our
-                                approach to
-                                differing robot embodiments.
-                            </p>
-                            <video id="nod_all_conditions" width="100%" preload="metadata" playsinline controls autoplay
-                                loop muted>
-                                <source src="videos/Quadruped/Recoverable_vs_Unrecoverable.mp4" type="video/mp4">
-                            </video>
-
-                            <video id="nod_all_conditions" width="100%" preload="metadata" playsinline controls autoplay
-                                loop muted>
-                                <source src="videos/Quadruped/Approach.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
-                    <h2 class="title is-3">Composing Complex Expressive Behaviors</h2>
+                    <h3 class="title is-3">Garment Design</h3>
                     <div class="content has-text-justified">
                         <p class="text-justify">
-                            We attempted to generate more complex behaviors using a set of learned expressive behaviors
-                            from previous interactions - these skills were appended to the prompts describing the robot’s
-                            capabilities (step 2 of our approach) as well as the robot’s API (represented as functions with docstrings).
-                            We found that the robot was able to compose complex behaviors from a set of learned expressive behaviors but did not
-                            always utilize the expected behaviors during composition.
-                        </p>
-                        <video id="nod_all_conditions" width="100%" preload="metadata" playsinline controls autoplay
-                            loop muted>
-                            <source src="videos/Composability/Confusion_Quad.mp4" type="video/mp4">
-                        </video>
-
-                        <video id="nod_all_conditions" width="100%" preload="metadata" playsinline controls autoplay
-                            loop muted>
-                            <source src="videos/Composability/Confusion.mp4" type="video/mp4">
-                        </video>
+                            During the design phase of the NebulaSuit, we prioritized several key requirements. 
+                            Foremost was comfortable experience, particularly regarding donning and doffing the suit.
+                             We also had maintenance and testing considerations, wherein although the vibration units
+                              would be discreetly integrated within the garment, they needed to remain readily accessible
+                               for convenient reconfiguration and debugging. Therefore, we selected a long-sleeve 
+                               compression shirt as the foundational garments for the suit.
+                                Leveraging the inherent elasticity of compression fabrics allows for form-fitting designs,
+                                 thereby facilitating direct skin contact. Vibration units were securely affixed to the garment.
+                                  Three zippers were also incorporated into the suit by the tailor. One zipper was added to the
+                                   body mid-line in the front and two zippers were added to the volar side of both sleeves to 
+                                   facilitate convenient donning and doffing of the suit. In the user studies conducted later,
+                                    we found that the donning and doffing process took less than one minute.
+                        <p style="text-align:center; margin-top: 50px;" />
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- End Carousel -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
