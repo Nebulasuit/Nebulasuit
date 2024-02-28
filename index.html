@@ -91,9 +91,9 @@
             </div>
         </div>
 
-        <p style="text-align:center;">
-            <image src="img/teaser_dark.jpg" width="80%" height="80%">
-        </p>
+        <div style="text-align: center;">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/BGc5lPs--7M?si=tOsGg-CElwGLd9UZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <section class="section">
             <div class="container is-max-desktop">
                 <div class="columns is-centered has-text-centered">
@@ -179,10 +179,26 @@ The spacing between vibration units mainly referenced spatial acuity results fro
                                 mounted on the bottom side to make direct contact with the actuator pads. When the MCU received a "start" signal, it
                                 sent waveform to the H-bridge to directly modulate the actuator. The MCU had fine-grained control over
                                 intensity, frequency and waveform.
-
-                            </p>
-                            <p style="text-align:center;">
-                                <image src="img/circuit.png" width="100%" height="100%">
+                                <p style="text-align:center;">
+                                    <image src="img/circuit.png" width="100%" height="100%">
+                                </p>
+                                <br>
+                                <strong style="font-size: 20px;">3. Mechanical Design.</strong>The functions of the 3D-printed enclosure were to the vibrotactile actuator and PCB board stably and provide garment attaching method.
+                                <br>
+                                The enclosure consisted of four parts: cap, PCB mount, cylindrical enclosure, and bottom ring (Figure above):
+                                <ul>
+                                    <li>The cap employed a screw-nut fastening system, adding top-down pressure to stablize the PCB board.</li>
+                                    <li>The PCB mount offered protection for the PCB, and aligned the pogo pins directly with the pads of the actuator.
+                                         This improved the robustness of the vibration unit as no soldering was required during the assembly.</li>
+                                    <li>The cylindrical enclosure served as a protective housing for all parts.
+                                         It had two holes designated for JST connectors as well as two asymmetrically positioned vents for passive heat dissipation.</li>
+                                    <li>The bottom ring was positioned beneath the fabric suit layers to have direct contact with the skin. When attached to the cylindrical enclosure,
+                                         these two parts were secured at the intended cloth position. This avoids any stitching or sewing in the assembly.
+                                    
+                                    </li>
+                                </ul>
+                                The overall structure of the 3D-printed enclosure for large vibration units is similar to the small one, with cap, rectangular enclosure,
+                                 and bottom ring. We did not design a PCB mount for the larger PCB board as it could press fit into the enclosure.
                             </p>
                             <p style="text-align:center;">
                                 <image src="img/blow_up.png" width="100%" height="100%">
@@ -193,34 +209,7 @@ The spacing between vibration units mainly referenced spatial acuity results fro
             </div>
         </section>
 
-        <div class="container is-max-desktop">
-            <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                    <h3 class="title is-3">Mechanical Design</h3>
-                    <div class="content has-text-justified">
-                        <p class="text-justify">
-                            The functions of the 3D-printed enclosure were to the vibrotactile actuator and PCB board stably and provide garment attaching method.
-                            <br>
-                            The enclosure consisted of four parts: cap, PCB mount, cylindrical enclosure, and bottom ring (Figure above):
-                            <ul>
-                                <li>The cap employed a screw-nut fastening system, adding top-down pressure to stablize the PCB board.</li>
-                                <li>The PCB mount offered protection for the PCB, and aligned the pogo pins directly with the pads of the actuator.
-                                     This improved the robustness of the vibration unit as no soldering was required during the assembly.</li>
-                                <li>The cylindrical enclosure served as a protective housing for all parts.
-                                     It had two holes designated for JST connectors as well as two asymmetrically positioned vents for passive heat dissipation.</li>
-                                <li>The bottom ring was positioned beneath the fabric suit layers to have direct contact with the skin. When attached to the cylindrical enclosure,
-                                     these two parts were secured at the intended cloth position. This avoids any stitching or sewing in the assembly.
-                                
-                                </li>
-                            </ul>
-                            The overall structure of the 3D-printed enclosure for large vibration units is similar to the small one, with cap, rectangular enclosure,
-                             and bottom ring. We did not design a PCB mount for the larger PCB board as it could press fit into the enclosure.
-                        </p>
-                        <p style="text-align:center; margin-top: 50px;" />
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-four-fifths">
@@ -354,6 +343,7 @@ The spacing between vibration units mainly referenced spatial acuity results fro
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
         <script>hljs.highlightAll();</script>
+        
 </body>
 
 </html>
